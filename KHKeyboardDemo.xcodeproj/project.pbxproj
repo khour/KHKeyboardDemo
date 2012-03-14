@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61707CBA15109ED9006CA775 /* button_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 61707CB415109ED9006CA775 /* button_highlighted.png */; };
+		61707CBB15109ED9006CA775 /* button_highlighted_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 61707CB515109ED9006CA775 /* button_highlighted_1.png */; };
+		61707CBC15109ED9006CA775 /* button_highlighted_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 61707CB615109ED9006CA775 /* button_highlighted_2.png */; };
+		61707CBD15109ED9006CA775 /* button_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 61707CB715109ED9006CA775 /* button_normal.png */; };
+		61707CBE15109ED9006CA775 /* button_normal_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 61707CB815109ED9006CA775 /* button_normal_1.png */; };
+		61707CBF15109ED9006CA775 /* button_normal_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 61707CB915109ED9006CA775 /* button_normal_2.png */; };
+		6171190E1510929600E6760E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6171190D1510929600E6760E /* UIKit.framework */; };
+		617119101510929600E6760E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6171190F1510929600E6760E /* Foundation.framework */; };
+		617119121510929600E6760E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 617119111510929600E6760E /* CoreGraphics.framework */; };
+		617119181510929600E6760E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 617119161510929600E6760E /* InfoPlist.strings */; };
+		6171191A1510929600E6760E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 617119191510929600E6760E /* main.m */; };
+		6171191E1510929600E6760E /* KHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6171191D1510929600E6760E /* KHAppDelegate.m */; };
+		617119211510929600E6760E /* KHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 617119201510929600E6760E /* KHViewController.m */; };
+		617119241510929600E6760E /* KHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 617119221510929600E6760E /* KHViewController.xib */; };
+		6171192F151092AF00E6760E /* KHKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6171192C151092AF00E6760E /* KHKeyboard.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		61707CB415109ED9006CA775 /* button_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_highlighted.png; sourceTree = "<group>"; };
+		61707CB515109ED9006CA775 /* button_highlighted_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_highlighted_1.png; sourceTree = "<group>"; };
+		61707CB615109ED9006CA775 /* button_highlighted_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_highlighted_2.png; sourceTree = "<group>"; };
+		61707CB715109ED9006CA775 /* button_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_normal.png; sourceTree = "<group>"; };
+		61707CB815109ED9006CA775 /* button_normal_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_normal_1.png; sourceTree = "<group>"; };
+		61707CB915109ED9006CA775 /* button_normal_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_normal_2.png; sourceTree = "<group>"; };
+		617119091510929600E6760E /* KHKeyboardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KHKeyboardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6171190D1510929600E6760E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6171190F1510929600E6760E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		617119111510929600E6760E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		617119151510929600E6760E /* KHKeyboardDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KHKeyboardDemo-Info.plist"; sourceTree = "<group>"; };
+		617119171510929600E6760E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		617119191510929600E6760E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6171191B1510929600E6760E /* KHKeyboardDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KHKeyboardDemo-Prefix.pch"; sourceTree = "<group>"; };
+		6171191C1510929600E6760E /* KHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHAppDelegate.h; sourceTree = "<group>"; };
+		6171191D1510929600E6760E /* KHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KHAppDelegate.m; sourceTree = "<group>"; };
+		6171191F1510929600E6760E /* KHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHViewController.h; sourceTree = "<group>"; };
+		617119201510929600E6760E /* KHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KHViewController.m; sourceTree = "<group>"; };
+		617119231510929600E6760E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KHViewController.xib; sourceTree = "<group>"; };
+		6171192B151092AF00E6760E /* KHKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHKeyboard.h; sourceTree = "<group>"; };
+		6171192C151092AF00E6760E /* KHKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHKeyboard.m; sourceTree = "<group>"; };
+		6171192D151092AF00E6760E /* KHKeyboardDatasource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHKeyboardDatasource.h; sourceTree = "<group>"; };
+		6171192E151092AF00E6760E /* KHKeyboardDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHKeyboardDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		617119061510929600E6760E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6171190E1510929600E6760E /* UIKit.framework in Frameworks */,
+				617119101510929600E6760E /* Foundation.framework in Frameworks */,
+				617119121510929600E6760E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61707CB315109ED9006CA775 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				61707CB415109ED9006CA775 /* button_highlighted.png */,
+				61707CB515109ED9006CA775 /* button_highlighted_1.png */,
+				61707CB615109ED9006CA775 /* button_highlighted_2.png */,
+				61707CB715109ED9006CA775 /* button_normal.png */,
+				61707CB815109ED9006CA775 /* button_normal_1.png */,
+				61707CB915109ED9006CA775 /* button_normal_2.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		617118FE1510929600E6760E = {
+			isa = PBXGroup;
+			children = (
+				617119131510929600E6760E /* KHKeyboardDemo */,
+				6171190C1510929600E6760E /* Frameworks */,
+				6171190A1510929600E6760E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6171190A1510929600E6760E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				617119091510929600E6760E /* KHKeyboardDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6171190C1510929600E6760E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6171190D1510929600E6760E /* UIKit.framework */,
+				6171190F1510929600E6760E /* Foundation.framework */,
+				617119111510929600E6760E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		617119131510929600E6760E /* KHKeyboardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6171192A151092AF00E6760E /* KHKeyboard */,
+				6171191C1510929600E6760E /* KHAppDelegate.h */,
+				6171191D1510929600E6760E /* KHAppDelegate.m */,
+				6171191F1510929600E6760E /* KHViewController.h */,
+				617119201510929600E6760E /* KHViewController.m */,
+				617119221510929600E6760E /* KHViewController.xib */,
+				617119141510929600E6760E /* Supporting Files */,
+				61707CB315109ED9006CA775 /* Resources */,
+			);
+			path = KHKeyboardDemo;
+			sourceTree = "<group>";
+		};
+		617119141510929600E6760E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				617119151510929600E6760E /* KHKeyboardDemo-Info.plist */,
+				617119161510929600E6760E /* InfoPlist.strings */,
+				617119191510929600E6760E /* main.m */,
+				6171191B1510929600E6760E /* KHKeyboardDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6171192A151092AF00E6760E /* KHKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				6171192B151092AF00E6760E /* KHKeyboard.h */,
+				6171192C151092AF00E6760E /* KHKeyboard.m */,
+				6171192D151092AF00E6760E /* KHKeyboardDatasource.h */,
+				6171192E151092AF00E6760E /* KHKeyboardDelegate.h */,
+			);
+			path = KHKeyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		617119081510929600E6760E /* KHKeyboardDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 617119271510929600E6760E /* Build configuration list for PBXNativeTarget "KHKeyboardDemo" */;
+			buildPhases = (
+				617119051510929600E6760E /* Sources */,
+				617119061510929600E6760E /* Frameworks */,
+				617119071510929600E6760E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KHKeyboardDemo;
+			productName = KHKeyboardDemo;
+			productReference = 617119091510929600E6760E /* KHKeyboardDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		617119001510929600E6760E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = LeverX;
+			};
+			buildConfigurationList = 617119031510929600E6760E /* Build configuration list for PBXProject "KHKeyboardDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 617118FE1510929600E6760E;
+			productRefGroup = 6171190A1510929600E6760E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				617119081510929600E6760E /* KHKeyboardDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		617119071510929600E6760E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617119181510929600E6760E /* InfoPlist.strings in Resources */,
+				617119241510929600E6760E /* KHViewController.xib in Resources */,
+				61707CBA15109ED9006CA775 /* button_highlighted.png in Resources */,
+				61707CBB15109ED9006CA775 /* button_highlighted_1.png in Resources */,
+				61707CBC15109ED9006CA775 /* button_highlighted_2.png in Resources */,
+				61707CBD15109ED9006CA775 /* button_normal.png in Resources */,
+				61707CBE15109ED9006CA775 /* button_normal_1.png in Resources */,
+				61707CBF15109ED9006CA775 /* button_normal_2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		617119051510929600E6760E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6171191A1510929600E6760E /* main.m in Sources */,
+				6171191E1510929600E6760E /* KHAppDelegate.m in Sources */,
+				617119211510929600E6760E /* KHViewController.m in Sources */,
+				6171192F151092AF00E6760E /* KHKeyboard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		617119161510929600E6760E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				617119171510929600E6760E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		617119221510929600E6760E /* KHViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				617119231510929600E6760E /* en */,
+			);
+			name = KHViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		617119251510929600E6760E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		617119261510929600E6760E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		617119281510929600E6760E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KHKeyboardDemo/KHKeyboardDemo-Prefix.pch";
+				INFOPLIST_FILE = "KHKeyboardDemo/KHKeyboardDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		617119291510929600E6760E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KHKeyboardDemo/KHKeyboardDemo-Prefix.pch";
+				INFOPLIST_FILE = "KHKeyboardDemo/KHKeyboardDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		617119031510929600E6760E /* Build configuration list for PBXProject "KHKeyboardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617119251510929600E6760E /* Debug */,
+				617119261510929600E6760E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		617119271510929600E6760E /* Build configuration list for PBXNativeTarget "KHKeyboardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617119281510929600E6760E /* Debug */,
+				617119291510929600E6760E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 617119001510929600E6760E /* Project object */;
+}
